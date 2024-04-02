@@ -19,6 +19,7 @@
 		64C317C32BBC56DB001B272E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 64C317C22BBC56DB001B272E /* FirebaseFirestore */; };
 		64C317C52BBC56DB001B272E /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 64C317C42BBC56DB001B272E /* FirebaseFirestoreCombine-Community */; };
 		64C317C72BBC56DB001B272E /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 64C317C62BBC56DB001B272E /* FirebaseFirestoreSwift */; };
+		64C317C92BBC5849001B272E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64C317C82BBC5849001B272E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		64C317AA2BBC5667001B272E /* GitHubProviderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubProviderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C317AE2BBC5667001B272E /* GitHubProviderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubProviderUITests.swift; sourceTree = "<group>"; };
 		64C317B02BBC5667001B272E /* GitHubProviderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubProviderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		64C317C82BBC5849001B272E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				64C317932BBC5666001B272E /* GitHubProviderApp.swift */,
 				64C317952BBC5666001B272E /* ContentView.swift */,
 				64C317972BBC5667001B272E /* Assets.xcassets */,
+				64C317C82BBC5849001B272E /* GoogleService-Info.plist */,
 				64C317992BBC5667001B272E /* Preview Content */,
 			);
 			path = GitHubProvider;
@@ -253,6 +256,7 @@
 			files = (
 				64C3179B2BBC5667001B272E /* Preview Assets.xcassets in Resources */,
 				64C317982BBC5667001B272E /* Assets.xcassets in Resources */,
+				64C317C92BBC5849001B272E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
